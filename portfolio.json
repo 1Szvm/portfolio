@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "name": "Utazási iroda",
+        "descr": "az érintett témakörök, technológiák felsorakoztatása",
+        "mainImg": "https://ibb.co/qmHL25n",
+        "images": "https://ibb.co/rbBnjn4",
+        "gitHub": "https://github.com/1Szvm/utazasiiroda",
+        "hosted": "https://1szvm.github.io/utazasiiroda/"
+    }
+]

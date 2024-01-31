@@ -7,3 +7,23 @@ nav{
 .btn:hover{
     box-shadow: 0 8px 10px 0 rgb(84, 29, 111);
 }
+.panels{
+    min-height: 100vh;
+    display: flex;
+}
+.panel{
+    flex: 1;
+    background-color: slateblue;
+    box-shadow: 0 0 10px gray;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    font-weight: 800;
+    transition: flex 0.2s cubic-bezier(.58,0,.58,1);   
+}
+.open{
+    flex: 5;
+}
