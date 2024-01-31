@@ -51,7 +51,7 @@
         })
 
         function navgate(){
-            let hash=window.location.hash.substring(2)
+            let hash=window.location.hash.substring(1)
             let page=routes[hash]||"404.html"
             loadPage(page,document.querySelector(".content"))
         }
