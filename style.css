@@ -4,8 +4,26 @@ nav{
 .text-purple{
     color: darkorchid;
 }
-.btn:hover{
+.btn-purple{
+    background-color: darkorchid;
+}
+.btn-purple:hover{
+    background-color: darkorchid;
+    box-shadow: 0 2px 3px 0 black;
+}
+.btn-purple:active {
+    background-color: rgb(134, 53, 174) !important;
     box-shadow: 0 8px 10px 0 rgb(84, 29, 111);
+}
+.bg-purple{
+    background-color: darkorchid;
+}
+.btn-dark:hover{
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0 8px 10px 0 rgb(28, 28, 28);
+}
+.card{
+    background-color: rgb(45, 45, 60);
 }
 .panels{
     min-height: 100vh;

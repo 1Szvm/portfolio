@@ -1,9 +1,11 @@
 import { about } from "./motto.js"
+import { projects } from "./projects.js"
 
 const routes={
     '':'home.html',
     'about':'about.html',
-    'contact':'contact.html'
+    'contacts':'contacts.html',
+    'projects':'projects.html'
 }
 const loadPage=async(url, domObj)=>{
     const respomse=await fetch(url)
@@ -11,6 +13,9 @@ const loadPage=async(url, domObj)=>{
     domObj.innerHTML=html
     if(url=="about.html"){
       about()
+    }
+    if(url=="projects.html"){
+        projects()
     }
 }
 
