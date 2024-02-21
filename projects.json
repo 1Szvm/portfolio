@@ -7,14 +7,5 @@
         "gitHub": "https://github.com/1Szvm/utazasiiroda",
         "hosted": "https://1szvm.github.io/utazasiiroda/",
         "resolveJsonModule": true
-    },
-    {
-        "id": 2,
-        "name": "Utazási iroda",
-        "descr": "A website that collects traveling services and their prices",
-        "mainImg": "https://ibb.co/qmHL25n",
-        "gitHub": "https://github.com/1Szvm/utazasiiroda",
-        "hosted": "https://1szvm.github.io/utazasiiroda/",
-        "resolveJsonModule": true
     }
 ]
