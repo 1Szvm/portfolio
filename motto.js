@@ -1,5 +1,5 @@
 export function about(){
-    const motto="Try Fail Learn Succeed Repeat".split(" ")
+    const motto="NEVER BACK DOWN NEVER WHAT????".split(" ")
     const panelBackgrounds = [
         'https://source.unsplash.com/NtbsSBlnMm0/1500x1500&#39',
         'https://source.unsplash.com/cGXdjyP6-NU/1500x1500&#39',
@@ -7,7 +7,6 @@ export function about(){
         'https://source.unsplash.com/aVJh5bgtd8o/1500x1500&#39',
         'https://source.unsplash.com/3MNzGlQM7qs/1500x1500&#39'
     ];
-    console.log();
     motto.forEach(word=>{
         document.querySelector('.panels').innerHTML+=`<div class="panel">${word}</div>`
     })

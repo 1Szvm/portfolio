@@ -1,5 +1,5 @@
 import { about } from "./motto.js"
-import { projects } from "./projects.js"
+import { renderProjecrs } from "./projects.js"
 
 const routes={
     '':'home.html',
@@ -15,8 +15,8 @@ const loadPage=async(url, domObj)=>{
       about()
     }
     if(url=="projects.html"){
-        projects()
-    }
+        renderProjecrs()
+      }
 }
 
 window.addEventListener("hashchange",()=>{
