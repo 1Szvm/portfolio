@@ -4,7 +4,7 @@ export function renderProjecrs(){
     document.querySelector(".projects").innerHTML+=
     `
     <div class="card m-2 text-white" style="width: 18rem;">
-      <img class="card-img-top" src="${element.mainImg}" alt="">
+      <img class="card-img-top" src=${element.mainImg} alt="">
       <div class="card-body">
         <h5 class="card-title">${element.name}</h5>
         <p class="card-text">${element.descr}</p>

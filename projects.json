@@ -3,9 +3,16 @@
         "id": 1,
         "name": "Utazási iroda",
         "descr": "A website that collects traveling services and their prices",
-        "mainImg": "https://ibb.co/qmHL25n",
+        "mainImg": "https://i.ibb.co/Lv2zGBx/N-vtelen.png",
         "gitHub": "https://github.com/1Szvm/utazasiiroda",
-        "hosted": "https://1szvm.github.io/utazasiiroda/",
-        "resolveJsonModule": true
+        "hosted": "https://1szvm.github.io/utazasiiroda/"
+    },
+    {
+        "id": 2,
+        "name": "Drums",
+        "descr": "Try out how great of a musiciant you are",
+        "mainImg": "https://i.ibb.co/k5KV0vL/N-vtelen2.png",
+        "gitHub": "https://github.com/1Szvm/Drums",
+        "hosted": "https://1szvm.github.io/Drums/"
     }
 ]
